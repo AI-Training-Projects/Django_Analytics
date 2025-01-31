@@ -2,18 +2,18 @@
 
 1) Create conda environment: 
 
-conda create --name django_analytics python=3.10 conda pip
-conda activate django_analytics
+    $ conda create --name django_analytics python=3.10 conda pip
+    $ conda activate django_analytics
 
-pip install django-slick-reporting
-pip install sqlalchemy>=2.0 ipython-sql
-pip install sqlalchemy>=2.0
-pip install ipython-sql
-pip install watermark
-pip install django-crispy-forms crispy-bootstrap5
+    # Install django-slick-reporting and its dependencies: 
 
+    $ pip install django-slick-reporting
+    $ pip install sqlalchemy>=2.0 ipython-sql
+    $ pip install sqlalchemy>=2.0
+    $ pip install ipython-sql
+    $ pip install watermark
+    $ pip install django-crispy-forms crispy-bootstrap5
 
-# After installing django-slick-reporting dependencies: 
 
 2) Navigate to the demo project directory:
     
